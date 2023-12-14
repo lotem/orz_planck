@@ -7,7 +7,10 @@
 原版为左 5×6 右 6×6，左右两块用 11P 排线连接。
 右侧电路板引出两组 8P 排线，矩阵见 `planck_split.h`。
 
-可改制为两块 5×6 组分体 Preonic；两块 6×6 组包含 F 区的大直列。
+可改制为
+
+  - 两块 5×6 轴板组 [分体 Preonic](ortho_60/readme.md)；
+  - 两块 6×6 轴板组包含 F 区的 [75% 大直列](ortho_75/readme.md)。
 
 * Keyboard Maintainer: [居戎氏](https://github.com/lotem)
 * Hardware Supported:

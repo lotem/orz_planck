@@ -1,11 +1,11 @@
-# ortho_60
+# 囧 60
 
-![ortho_60](imgur.com image replace me!)
+![orz_60](imgur.com image replace me!)
 
-拆机黑轴轴板改低成本分体直列键盘
+囧氏普朗克：拆机黑轴轴板改低成本直列分体键盘
 
-原版为左 5×6 右 6×6，左右两块用 11P 排线连接。
-右侧电路板引出两组 8P 排线，矩阵见 `planck_split.h`。
+原版为左 5×6 右 6×6 两块轴板，用 11P 排线连接。
+右侧电路板引出两组 8P 排线，矩阵见 `orz/orz.h`。
 
 改制为两块 5×6 轴板组分体 Preonic（60%）。
 
@@ -19,14 +19,17 @@
 
 ## 线序
 
-PCB 背面一角标注 A 或 B。取 2 块轴板 A，该字样向上放置并观察。
+左手一侧的 PCB 一角标注为 A，右手一侧 PCB 标注为 B。
 
- - A 板左侧排线线序：列线从上到下为 C0 ~ C5、行线从下到上为 R0 ~ R4，通过排线连接到 B 板对应的行线、列线。
- 
+取 2 块轴板 A。拆除原装排线后，从定位板一面观察。
+排线座位置自下而上标注了行线 `1 2 3 4 5`、列线 `C D E F G H`。
+
 ## 连接方式
 
-左手键盘正向放置，排线在右侧偏上；右手键盘旋转 180 度放置，排线在左侧偏下。
+左手键盘正向放置，排线在右侧偏上；
+右手键盘旋转 180 度放置，排线在左侧偏下。
 两块键盘的行线、列线通过排线分别连接主控板。
+
 现以面包板示例。
 
 行线：
@@ -34,28 +37,39 @@ PCB 背面一角标注 A 或 B。取 2 块轴板 A，该字样向上放置并观
 左右手 5 条行线并联。
 合并后用左手的线序统一表记。
 
-    左 R0 R1 R2 R3 R4
-    右 R4 R3 R2 R1 R0
+    左 1 2 3 4 5
+    右 5 4 3 2 1
+    并 1 2 3 4 5
 
 列线：
 
-左右手共 12 列。
+左右手共 12 列。主控线序用 6 ~ 9, A ~ H 表记。
 
-    左 C0 C1 C2 C3 C4 C5 右 C5 C4 C3 C2 C1 C0
+    左 H G F E D C 右 C D E F G H
+    主 H G F E D C    B A 9 8 7 6
+
+在面包板上如图设置 11 P 排线座。
+左右手的排线顺序相反，在行线部分重叠。
+
+    右 [H G F E D C 5 4 3 2 1]. . . . . .
+    主  6 7 8 9 A B 1 2 3 4 5 C D E F G H
+    左  . . . . . .[1 2 3 4 5 C D E F G H]
 
 RP2040 主控引脚定义：
 
- - 左 C0 ~ C5 : GP0 ~ GP5
- - 右 C0 ~ C5 : GP27, GP26, GP15, GP14, GP7, GP6
- - R0 ~ R4 : GP8 ~ GP12
+ - 1 ~ 5 行 : GP0 ~ GP4
+ - 6 ~ B 列 : GP5 ~ GP10
+ - C ~ H 列 : GP11, GP12, GP14, GP15, GP26, GP27
 
 Make example for this keyboard (after setting up vial-qmk build environment):
 
-    make planck_split/ortho_60:vial
+    make orz_planck/orz_60:vial
 
 Flashing example for this keyboard:
 
-    make planck_split/ortho_60:vial:flash
+    make orz_planck/orz_60:vial:flashing
+
+
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 

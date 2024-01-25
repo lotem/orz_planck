@@ -35,31 +35,31 @@
 行线：
 
 左右手 5 条行线并联。
-合并后用左手的线序统一表记。
+合并后用右手的线序统一表记。
 
-    左 1 2 3 4 5
-    右 5 4 3 2 1
+    左 5 4 3 2 1
+    右 1 2 3 4 5
     并 1 2 3 4 5
 
 列线：
 
-左右手共 12 列。主控线序用 6 ~ 9, A ~ H 表记。
+左右手共 12 列。主控线序用 C ~ H, I ~ N 表记。
 
     左 H G F E D C 右 C D E F G H
-    主 H G F E D C    B A 9 8 7 6
+    主 N M L K J I    C D E F G H
 
 在面包板上如图设置 11 P 排线座。
 左右手的排线顺序相反，在行线部分重叠。
 
-    右 [H G F E D C 5 4 3 2 1]. . . . . .
-    主  6 7 8 9 A B 1 2 3 4 5 C D E F G H
-    左  . . . . . .[1 2 3 4 5 C D E F G H]
+    右  . . . . . .[1 2 3 4 5 C D E F G H]
+    主  N M L K J I 1 2 3 4 5 C D E F G H
+    左 [H G F E D C 5 4 3 2 1]. . . . . .
 
 RP2040 主控引脚定义：
 
  - 1 ~ 5 行 : GP0 ~ GP4
- - 6 ~ B 列 : GP5 ~ GP10
- - C ~ H 列 : GP11, GP12, GP14, GP15, GP26, GP27
+ - C ~ H 列 : GP5 ~ GP10
+ - I ~ N 列 : GP14, GP15, GP26 ~ GP29
 
 Make example for this keyboard (after setting up vial-qmk build environment):
 

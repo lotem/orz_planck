@@ -1,8 +1,5 @@
 # 囧氏普朗克
 
-![囧氏三体键盘](images/orz_planck_three_body.jpg)
-![囧氏普朗克键队](images/orz_planck_formation.jpg)
-
 囧氏普朗克：拆机黑轴轴板改低成本直列分体键盘
 
 原版为左 5×6 右 6×6 两块轴板，用 11P 排线连接。
@@ -13,6 +10,9 @@
   - 复活 [原版](orz/readme.md) 分体键盘；
   - 两块 5×6 轴板组分体 Preonic——[囧 60](orz_60/readme.md)；
   - 两块 6×6 轴板组包含 F 区的大直列——[囧 75](orz_75/readme.md)。
+
+![囧氏三体键盘](images/orz_planck_three_body.jpg)
+![囧氏普朗克键队](images/orz_planck_formation.jpg)
 
 * Keyboard Maintainer: [居戎氏](https://github.com/lotem)
 * Hardware Supported:

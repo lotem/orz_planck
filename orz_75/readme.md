@@ -1,14 +1,14 @@
 # 囧 75
 
-![囧 75](../images/orz_75.jpg)
-![囧 75 正视图](../images/orz_75_front_view.jpg)
-
 囧氏普朗克：拆机黑轴轴板改低成本直列分体键盘
 
 原版为左 5×6 右 6×6 两块轴板，用 11P 排线连接。
 右侧电路板引出两组 8P 排线，矩阵见 [图表](../orz_planck_matrix.pdf)。
 
 改制为两块 6×6 轴板组包含 F 区的大直列（75%）。
+
+![囧 75](../images/orz_75.jpg)
+![囧 75 正视图](../images/orz_75_front_view.jpg)
 
 * Keyboard Maintainer: [居戎氏](https://github.com/lotem)
 * Hardware Supported:

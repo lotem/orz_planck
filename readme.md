@@ -1,6 +1,7 @@
 # 囧氏普朗克
 
-![orz_planck](imgur.com image replace me!)
+![囧氏三体键盘](images/orz_planck_three_body.jpg)
+![囧氏普朗克键队](images/orz_planck_formation.jpg)
 
 囧氏普朗克：拆机黑轴轴板改低成本直列分体键盘
 

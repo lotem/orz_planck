@@ -1,11 +1,12 @@
 # 囧 60
 
-![orz_60](imgur.com image replace me!)
+![囧 60](../images/orz_60.jpg)
+![囧 60 正视图](../images/orz_60_front_view.jpg)
 
 囧氏普朗克：拆机黑轴轴板改低成本直列分体键盘
 
 原版为左 5×6 右 6×6 两块轴板，用 11P 排线连接。
-右侧电路板引出两组 8P 排线，矩阵见 [图表](orz_planck_matrix.pdf)。
+右侧电路板引出两组 8P 排线，矩阵见 [图表](../orz_planck_matrix.pdf)。
 
 改制为两块 5×6 轴板组分体 Preonic（60%）。
 

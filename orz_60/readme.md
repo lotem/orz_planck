@@ -62,6 +62,8 @@ RP2040 主控引脚定义：
  - C ~ H 列 : GP5 ~ GP10
  - I ~ N 列 : GP14, GP15, GP26 ~ GP29
 
+## 刷写固件
+
 Make example for this keyboard (after setting up vial-qmk build environment):
 
     make orz_planck/orz_60:vial

@@ -36,6 +36,8 @@ RP2040 主控引脚定义：
  - 1 ~ 8 行 : GP0 ~ GP7
  - A ~ H 列 : GP8 ~ GP15
 
+## 刷写固件
+
 Make example for this keyboard (after setting up vial-qmk build environment):
 
     make orz_planck/orz:vial

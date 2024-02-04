@@ -86,6 +86,8 @@ RP2040 主控引脚定义：
   - 右手键盘下起第 1 行的 7A 改为 5C
   - 左手键盘同样位置的三个键在新矩阵中改为 3I, 4C, 4H
 
+## 刷写固件
+
 Make example for this keyboard (after setting up vial-qmk build environment):
 
     make orz_planck/orz_75:vial

@@ -1,14 +1,14 @@
-# 囧 75
+# 囧 72
 
 囧氏普朗克：拆机黑轴轴板改低成本直列分体键盘
 
 原版为左 5×6 右 6×6 两块轴板，用 11P 排线连接。
 右侧电路板引出两组 8P 排线，矩阵见 [图表](../orz_planck_matrix.pdf)。
 
-改制为两块 6×6 轴板组包含 F 区的大直列（75%）。
+改制为两块 6×6 轴板组包含 F 区的大直列。
 
-![囧 75](../images/orz_75.jpg)
-![囧 75 正视图](../images/orz_75_front_view.jpg)
+![囧 72](../images/orz_72.jpg)
+![囧 72 正视图](../images/orz_72_front_view.jpg)
 
 * Keyboard Maintainer: [居戎氏](https://github.com/lotem)
 * Hardware Supported:
@@ -90,11 +90,11 @@ RP2040 主控引脚定义：
 
 Make example for this keyboard (after setting up vial-qmk build environment):
 
-    make orz_planck/orz_75:vial
+    make orz_planck/orz_72:vial
 
 Flashing example for this keyboard:
 
-    make orz_planck/orz_75:vial:flash
+    make orz_planck/orz_72:vial:flash
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 

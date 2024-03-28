@@ -9,7 +9,7 @@
 
   - 复活 [原版](orz/readme.md) 分体键盘；
   - 两块 5×6 轴板组分体 Preonic——[囧 60](orz_60/readme.md)；
-  - 两块 6×6 轴板组包含 F 区的大直列——[囧 75](orz_75/readme.md)。
+  - 两块 6×6 轴板组包含 F 区的大直列——[囧 72](orz_72/readme.md)。
 
 ![囧氏三体键盘](images/orz_planck_three_body.jpg)
 ![囧氏普朗克键队](images/orz_planck_formation.jpg)
